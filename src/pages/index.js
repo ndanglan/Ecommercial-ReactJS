@@ -1,0 +1,11 @@
+export { default as HomePage } from './Home/HomePage';
+export { default as Products } from './Products/Products';
+export { default as ProductCategory } from './ProductCategory/ProductCategory';
+export { default as Login } from './Login/Login';
+export { default as News } from './News/News';
+export { default as Intro } from './Intro/Intro';
+export { default as PageNotWorking } from './PageNotWorking/PageNotWorking';
+export { default as Cart } from './Cart/Cart';
+export { default as CheckOut } from './CheckOut/CheckOut';
+export { default as History } from './History/History';
+export { default as Account } from './Account/Account';

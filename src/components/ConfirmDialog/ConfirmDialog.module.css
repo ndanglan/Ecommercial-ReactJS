@@ -1,0 +1,11 @@
+.rightBtn{
+  background-color: #54aeac;
+  border: 1px solid transparent;
+  color:var(--white-text-color);
+  transition: all 0.3s ease;
+}
+
+.rightBtn:hover{
+  background-color: var(--blue-bg-color);
+  border: 1px solid transparent;
+}

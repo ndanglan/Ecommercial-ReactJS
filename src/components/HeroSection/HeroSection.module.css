@@ -1,0 +1,114 @@
+
+.heroSection {
+  background-color: var(--bg-slider);
+  padding-top: 30px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -30px;
+}
+
+.col {
+  padding: 0 30px;
+  position: relative;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 30px;
+}
+
+.slide{
+  position: relative;
+}
+
+.boxInfo{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  text-align: left;
+}
+
+.boxInfoTitle{
+  font-size: var(--font-3-0);
+  font-weight: var(--bold-7);
+  letter-spacing: 1px;
+  color: var(--big-title-slider-color);
+  margin: 30px 0 20px;
+}
+
+.boxInfoTitle,
+.boxInfoSubTitle{
+  text-transform: uppercase;
+}
+
+.boxInfoSubTitle{
+  display: inline-block;
+  font-size: var(--font-0-875);
+  font-weight: var(--bold-6);
+  color: var(--desc-slider-color);
+  letter-spacing: 2px;
+}
+
+.boxInfoButton{
+  padding: 40px 0;
+}
+
+.boxInfoButton a{
+  display: inline-block;
+  font-family: var(--font-family);
+  font-size: var(--font-1);
+  letter-spacing: 0.5px;
+  font-weight: var(--bold-5);
+  background-color: var(--main-text-color);
+  color: var(--white-text-color);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.75rem 1.75rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.boxInfoButton a:hover {
+  color: var(--blue-bg-color);
+}
+
+.heroSection .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--white-text-color);
+  color: var(--sub-text-color);
+  border: 1px solid #ebebeb;
+  font-size: var(--font-1-125);
+  text-align: center;
+  z-index: 1;
+}
+
+.btn::before{
+ display: none;
+}
+
+.heroSection .btnRight{
+  right: 0;
+}
+
+.heroSection .btnLeft{
+  left: 0;
+}
+
+.heroSection .btn,
+.heroSection .btn:focus{
+  background-color: var(--white-text-color);
+  color: var(--sub-text-color);
+}
+
+.heroSection .btn:hover{
+  color: var(--white-text-color);
+  background-color: var(--blue-bg-color);
+}
+
+
+
+

@@ -1,0 +1,41 @@
+.wrapper{
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap:15px;
+}
+
+.categoryItem{
+  display: block;
+  padding: 7px 20px 10px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  border-top: 1px solid var(--icon-color);
+  transition: 0.3 ease;
+  color: var(--main-text-color);
+}
+
+.categoryItem:hover{
+  color: var(--blue-bg-color);
+}
+
+.categoryAmount{
+  float: right;
+  color: var(--sub-text-color);
+}
+
+.filterItem{
+  display: block;
+  margin: 0;
+  padding: 0 20px 15px;
+  color: var(--main-text-color);
+}
+
+.filterItem:hover{
+  cursor: pointer;
+  color: var(--blue-bg-color);
+}
+
+.filterItemLabel{
+  display: none;
+}

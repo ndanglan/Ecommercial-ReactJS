@@ -1,0 +1,126 @@
+.wrapper{
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap:15px;
+}
+
+.accountBody{
+  padding-left: 15px;
+  box-shadow: var(--box-shadow-container);
+}
+
+.accountInfo{
+  padding: 0 30px 10px;
+  background-color: var(--white-text-color);
+}
+
+.accountHeading{
+  border-bottom: 1px solid #efefef; 
+  padding: 16px 0;
+}
+
+.accountHeading h1{
+  margin: 0;
+  font-size: var(--font-1-125);
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+}
+
+.accountHeading p{
+  margin: 5px 0 0 0;
+  font-size: var(--font-0-875);
+  color: var(--main-text-color);
+}
+
+.accountContent{
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.accountForm{
+  flex: 1;
+  padding-right: 50px;
+}
+
+.inputWrapper{
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.inputWrapper>label{
+  width: 20%;
+  text-align: right;
+  color: var(--main-text-color);
+  text-transform: capitalize;
+}
+.inputWrapper > div{
+  margin-left: 20px;
+  width: 80%;
+}
+
+.inputWrapper > div >div{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputWrapper > div >div input{
+  margin-top: 5px;
+  background-color: var(--white-text-color);
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.14);
+  color: var(--main-text-color);
+  height: 40px;
+  padding: 10px;
+}
+
+.inputWrapper > div >div label{
+  padding-left: 10px;
+}
+
+.accountImg{
+  width: 300px;
+  border-left: 1px solid #efefef;
+}
+
+.accountBtn{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+  padding-bottom: 20px;
+}
+
+.accountBtn button,
+.accountBtn a{
+  height: 40px;
+  padding: 0px 20px;
+  min-width: 70px;
+  
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.accountBtn button{
+  color: var(--white-text-color);
+  background-color: var(--blue-bg-color);
+}
+
+.accountBtn a{
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accountBtn button:hover{
+  background-color: #4a9c9a;
+}
+
+.accountBtn a:hover{
+  color: var(--blue-bg-color);
+  background-color: rgba(0,0,0,0.6);
+}

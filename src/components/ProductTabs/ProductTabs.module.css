@@ -1,0 +1,49 @@
+.tabs{
+  margin: 30px 0;
+}
+
+.tabOptions{
+  margin: 0;
+  border-bottom: 3px solid #fff;
+  box-shadow: 0 1px 0 0 #ebebeb;
+  display: block;
+  padding: 10px 0;
+  position: relative;
+  display: flex;
+}
+
+.tabOptions > li > a {
+  margin-right: 30px;
+  line-height: inherit;
+  color: #35373e;
+  border-radius: 0 0 0 0;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.tabOptions > li > a:hover{
+  color: rgb(95, 201, 199) ;
+}
+
+.tabOptions:before {
+  background: #9dce61;
+  bottom: -3px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 30px;
+}
+
+.desc{
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family:var(--font-family);
+  color: var(--main-text-color);
+  font-weight: 400;
+  padding: 30px 15px;
+}

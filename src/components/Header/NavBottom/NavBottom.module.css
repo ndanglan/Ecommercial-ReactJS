@@ -1,0 +1,154 @@
+.fixedNav {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0 4px;
+  z-index: 1500;
+  background: var(--white-text-color);
+}
+
+.fixedNav.navBottomMenu {
+  justify-content: center !important;
+}
+
+.fixedNav.navBottomMenu >ul{
+  margin-left: auto;
+  margin-right: auto;
+}
+.navBottom .fixedNav .navItem {
+  padding: 15px 20px;
+}
+.fixedNav .navbar-nav {
+  margin-right: 0 !important;
+}
+
+.navBottom .fixedNav .dropdownMenu {
+  top: 72px;
+  box-shadow: 0 0px 5px 1px rgba(0,0,0,0.1);
+}
+.fixedNav form {
+  display: none !important;
+}
+
+.hideNav {
+  display: none;
+}
+
+.navBottom {
+  padding: 0;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  min-height: 93px;
+}
+
+.navBottom .container{
+  width: 100%;
+}
+
+.navItem {
+  padding: 25px 20px;
+  border-right: 1px solid #ebebeb;
+  margin: 0;
+  color: var(--sub-text-color);
+  font-size: var(--font-0-75);
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  font-weight: var(--bold-4);
+}
+
+.navLink {
+  font-family: var(--font-family);
+  font-size: var(--font-1);
+  color: var(--main-text-color);
+}
+
+.navBottom .navLink:hover {
+  color: var(--blue-bg-color);
+}
+
+.navBottom .navLink:focus{
+  color: var(--main-text-color);
+}
+
+.dropdownToggle::after {
+  display: none;
+}
+
+.dropdownToggle i{
+  margin-left: 5px;
+}
+
+.dropdownMenu {
+  display: none;
+  padding: 10px 20px;
+  left: 0px;
+  top: 92px;
+  height: fit-content;
+  min-width: 200px;
+  box-shadow: 0 1px 4px ;
+  box-shadow: 0 0px 5px 1px rgba(0,0,0,0.1);
+  border-radius: unset;
+}
+
+.dropDown:hover .dropdownMenu {
+  display: block;
+  animation: fadeUp 0.3s linear forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0.5;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.dropdownMenu li {
+  width: max-content;
+  color: var(--main-text-color);
+}
+
+.dropdownMenu li a{
+  font-size: 0.9rem;
+  text-transform:capitalize;
+  display: block;
+  padding: 10px 0;
+  width: max-content;
+}
+
+.dropdownMenu li a:hover{
+  color: var(--blue-bg-color);
+}
+
+.formControl {
+  height: 40px;
+  padding: 8px 10px;
+  border-color: #ebebeb;
+  background-color: var(--bg-color);
+  border-radius: 25px;
+  border-right: none;
+}
+
+.formControl:focus {
+  outline: none;
+  background-color: var(--bg-color);
+  border-color: #ebebeb;
+  box-shadow: none;
+}
+
+.btnOutline {
+  border-radius: 25px;
+  border-color: #ebebeb;
+  background-color: var(--bg-color);
+  color: var(--sub-text-color);
+  border-left: none;
+  font-size: var(--font-0-75);
+}
+
+.btnOutline:hover {
+  color: var(--blue-bg-color);
+}

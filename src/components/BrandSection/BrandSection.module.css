@@ -1,0 +1,55 @@
+.wrapper {
+  background-color: var(--white-text-color);
+}
+
+.box {
+  padding: 50px 0;
+  border-right: 1px solid #ebebeb;
+  position: relative;
+}
+
+.brand img {
+  filter: grayscale(100%);
+  margin: 0 auto;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.box:hover img {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+.btnLeft {
+  left: 5px;
+}
+
+.btnRight {
+  right: 5px;
+}
+
+.btn{
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--sub-text-color);
+  font-size: var(--font-0-75);
+  color: var(--sub-text-color) !important;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.btn::before{
+  display: none;
+}
+
+.btn:hover{
+  background-color:var(--blue-bg-color) !important;
+  color: var(--white-text-color) !important;
+}
+
+.wrapper:hover .btn{
+  opacity: 1;
+}

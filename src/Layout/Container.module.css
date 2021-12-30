@@ -1,0 +1,18 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper{
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap:15px;
+}

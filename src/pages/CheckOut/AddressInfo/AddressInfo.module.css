@@ -1,0 +1,72 @@
+.address{
+  margin-top: 20px;
+  background-color: var(--white-text-color);
+  box-shadow: var(--box-shadow-container);
+  border-radius: 3px;
+}
+
+.address >p{
+  height: 3px;
+    width: 100%;
+    background-position-x: -30px;
+    background-size: 116px 3px;
+    background-image: repeating-linear-gradient(45deg,#6fa6d6,#6fa6d6 33px,transparent 0,transparent 41px,#f18d9b 0,#f18d9b 74px,transparent 0,transparent 82px);
+}
+
+.addressContent{
+  padding: 28px 30px 24px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-1-125);
+  color: var(--blue-bg-color);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.title span{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-right: 9px;
+}
+
+.title h3{
+  margin: 0;
+  font-size: var(--font-1-125);
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.details > span:first-child{
+  font-weight: var(--bold-7);
+  color: var(--main-text-color);
+}
+
+.details > span:last-child{
+  color: var(--main-text-color);
+}
+
+.btn button{
+  color: var(--blue-bg-color);
+  text-transform: uppercase;
+  font-weight: var(--bold-5);
+  cursor: pointer;
+}
+
+.btn button:hover{
+  color: #3d8482;
+}

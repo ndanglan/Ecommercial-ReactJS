@@ -1,0 +1,9 @@
+.serviceSection{
+  background-color: var(--bg-color);
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

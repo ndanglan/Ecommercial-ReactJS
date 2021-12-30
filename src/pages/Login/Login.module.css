@@ -1,0 +1,51 @@
+.header{
+  margin: 20px 0 5px;
+}
+
+.header h1{
+  font-size: 2rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.form form{
+  min-width:350px;
+}
+
+.form form p{
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.input{
+  display: block;
+  margin: 15px 0;
+}
+
+.btn{
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.actions a{
+  display: block;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.actions a:hover{
+  color: var(--blue-bg-color);
+}

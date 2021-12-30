@@ -1,0 +1,36 @@
+.wrapper{
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper label{
+  flex:1;
+  text-align: right;
+  color: var(--main-text-color);
+  text-transform: capitalize;
+}
+
+.wrapper> div{
+  flex: 4;
+}
+.wrapper input{
+  display: block;
+  width: 100%;
+  margin-left: 20px;
+  background-color: var(--white-text-color);
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.14);
+  color: var(--main-text-color);
+  height: 40px;
+  padding: 10px;
+}
+
+.invalidFeedBack{
+  font-size: 0.8rem;
+  text-align: start;
+  padding: 0 10px;
+}
+
+

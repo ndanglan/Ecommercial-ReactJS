@@ -1,0 +1,25 @@
+.title {
+  margin-bottom: 30px;
+  font-size: var(--font-1-75);
+  font-weight: var(--bold-5);
+  font-family: var(--font-family);
+  border-bottom: 1px solid #ebebeb;
+}
+
+.title span {
+  border-bottom: 2px solid #fff;
+  display: block;
+  padding: 10px 0;
+  position: relative;
+  color: var(--main-text-color);
+}
+
+.title span::before {
+  background: #5fc9c7;
+  bottom: -3px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 30px;
+}

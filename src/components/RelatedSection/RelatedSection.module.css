@@ -1,0 +1,42 @@
+.relatedBackground {
+  background-image: url("/img/cb_bg_img.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.box{
+  background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+  margin: 0 auto;
+  max-width: 570px;
+  padding: 30px;
+}
+
+.heading {
+  font-family: var(--font-family);
+  font-size: var(--font-1-5);
+  font-weight: var(--bold-4);
+  color: var(--box-heading-color);
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: var(--font-3-25);
+  font-family: var(--font-family);
+  font-weight: var(--bold-7);
+  text-transform: capitalize;
+  color: var(--main-text-color);
+}
+
+.content {
+  font-size: var(--font-1-125);
+  color: var(--box-desc-color);
+  font-weight: var(--bold-4);
+  padding: 10px 0;
+}

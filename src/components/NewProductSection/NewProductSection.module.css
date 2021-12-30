@@ -1,0 +1,49 @@
+.newproduct{
+  padding-bottom: 30px;
+}
+
+.newproduct{
+  padding-bottom: 30px;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper{
+  margin: 0 -15px;
+}
+
+.btnLeft {
+  right: 50px;
+}
+
+.btnRight {
+  right: 5px;
+}
+
+.btn{
+  top: -60px;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: var(--white-text-color) !important;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+  font-size: var(--font-0-75);
+  color: var(--sub-text-color) !important;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.btn::before{
+  display: none;
+}
+
+.btn:hover{
+  background-color:var(--blue-bg-color) !important;
+  color: var(--white-text-color) !important;
+}

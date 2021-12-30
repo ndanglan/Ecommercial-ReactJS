@@ -1,0 +1,181 @@
+.infoBox{
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 4%)
+}
+
+.name{
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #35373e;
+}
+
+.hr{
+  margin: 20px 0;
+}
+.socialBtns{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+.socialBtns button{
+  border-radius: 3px;
+  font-size: 11px;
+  height: 20px;
+  padding: 0 6px;
+  background: rgb(64, 128, 255);
+  border: 1px solid #4080ff;
+  color: white;
+  padding: 0 6px;
+  width: 64px; 
+}
+
+.socialBtns button:nth-child(2){
+  background-color: rgb(29, 155, 240);
+}
+
+.socialBtns button:nth-child(3){
+  background-color: rgb(254,109,76);
+}
+
+.socialBtns button i {
+  margin-right: 3px;
+}
+
+.desc{
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 1.6;
+  color: #31373d;
+  font-weight: 400;
+}
+
+.categoryInfo,
+.rating{
+  margin-bottom: 15px;
+  font-size: var(--font-1);
+}
+
+.categoryInfo span,
+.rating span{
+  font-weight: var(--bold-5);
+}
+
+.rating small{
+  font-size: var(--font-0-75);
+}
+
+.price{
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(95, 201, 199);
+}
+
+.infoBox form {
+  margin-bottom: 20px;
+}
+
+.amount{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.controlAmount{
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 150px;
+  min-width: 125px;
+  overflow: visible;
+}
+
+.controlAmount p {
+  padding: 8px;
+  margin: 0;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  background: none;
+  overflow: hidden;
+  border: none;
+}
+
+.controlAmount p:nth-child(1){
+  left: 0;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.controlAmount p:nth-child(3){
+  right: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.controlAmount input{
+  outline: none;
+  display: block;
+  background: none;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 5px 25px;
+  margin: 0;
+  border: 1px solid #ebebeb;
+  border-radius: 25px;
+}
+
+.infoBox form > button {
+  background-color: #000;
+  color: var(--white-text-color);
+  border-radius: 30px;
+  margin-right: 30px;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.favorite{
+  color: #35373e;
+  font-size: var(--font-0-75);
+}
+.favorite i{
+  font-size: var(--font-0-875);
+}
+
+.favorite:hover i{
+  animation: zoomOut 1s linear infinite;
+}
+
+.selected{
+  color: red;
+}
+
+.infoBox form > button i,
+.favorite i{
+  margin-right: 10px;
+}
+
+.infoBox form > button:hover,
+.favorite:hover{
+  color: var(--blue-bg-color);
+}
+
+@keyframes zoomOut {
+  0%{
+    transform: scale(1);
+  }50%{
+    transform: scale(1.3);
+  }100%{
+    transform: scale(1);
+  }
+}
+
+

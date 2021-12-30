@@ -1,0 +1,31 @@
+.item{
+  padding: 45px 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.icon{
+  margin: 25px 15px 0 0;
+}
+
+.title{
+  font-size: var(--font-1);
+  font-family: var(--font-family);
+  font-weight: var(--bold-5);
+  color: var(--main-text-color);
+  margin: 20px 0 8px 0;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.title:hover{
+  color: var(--blue-bg-color);
+  cursor: pointer;
+}
+
+.desc{
+  margin-bottom: 15px;
+  font-size: var(--font-0-875);
+  color: var(--sub-text-color);
+}

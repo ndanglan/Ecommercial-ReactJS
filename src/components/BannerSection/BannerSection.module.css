@@ -1,0 +1,24 @@
+.banner {
+  padding-bottom: 30px;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.link {
+  box-shadow: var(--box-shadow-container);
+  overflow: hidden;
+  display: block;
+}
+
+.img{
+  transition: all 0.5s linear;
+}
+
+.link:hover .img {
+  opacity: 0.8;
+  transform: scale3d(1.1, 1.1, 1);
+}

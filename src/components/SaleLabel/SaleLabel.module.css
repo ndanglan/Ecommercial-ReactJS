@@ -1,0 +1,18 @@
+.label {
+  font-size: var(--font-0-875);
+  font-weight: var(--bold-4);
+  background: var(--blue-bg-color);
+  color: var(--white-text-color);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  padding: 4px 8px;
+  border-radius: 0;
+  transform: translateZ(0px);
+  z-index: 1;
+}
+
+.label.onSale {
+  background: var(--red-bg-color);
+}

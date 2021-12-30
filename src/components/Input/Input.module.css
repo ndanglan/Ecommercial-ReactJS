@@ -1,0 +1,14 @@
+.input{
+  width: 100%;
+  border: 1px solid #ebebeb;
+  max-width: 100%;
+  padding: 8px 10px;
+  border-radius: 0px;
+  outline: none;
+}
+
+.invalidFeedBack{
+  font-size: 0.8rem;
+  text-align: start;
+  padding: 0 10px;
+}

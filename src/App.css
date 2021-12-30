@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  /* font-family */
+  --font-family: "Roboto", sans-serif;
+  --font-family-serif: serif;
+  --font-family-Arial: Arial;
+  /* font-size && font-weight */
+  --font-3-25: 3.25rem;
+  --font-3-0: 3rem;
+  --font-1-75: 1.75rem;
+  --font-1-5:1.5rem;
+  --font-1-125: 1.125rem;
+  --font-1: 1rem;
+  --font-0-875: 0.875rem;
+  --font-0-75: 0.75rem;
+
+  --bold-7: 700;
+  --bold-6: 600;
+  --bold-5: 500;
+  --bold-4: 400;
+  --bold-3: 300;
+
+  /* color */
+  --bg-color: #f8f8f8;
+  --bg-slider: #f1f1f1;
+  --main-text-color: #35373e;
+  --sub-text-color: #999;
+  --red-bg-color: #ee3729;
+  --blue-bg-color: #5fc9c7;
+  --big-title-slider-color: #8f7560;
+  --desc-slider-color: #414141;
+  --white-text-color: #fff;
+  --box-heading-color: #333;
+  --box-desc-color: #666;
+  --icon-color: #c2c2c2;
+  /* box-shadow */
+
+  --box-shadow-container: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background: var(--bg-color);
+  font-size: var(--font-0-875);
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  background: transparent;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button{
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+/* HARD CODE HERO SLIDER */
+.slick-active .hero-title{
+  animation: bounceInDown;
+  animation-duration: 1s;
+}
+
+.slick-active .hero-desc{
+  animation: bounceInDown;
+  animation-duration: 2s;
+}
+
+.slick-active .hero-btn{
+  animation: bounceInDown;
+  animation-duration: 3s;
+}
+
+.slick-next:focus{
+  background:unset ;
+  color: unset;
+}
+
+.loading{
+  position: fixed;
+  z-index: 2000;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.spinner{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 2001;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+}
+.spinner:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: spinner 1.2s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.modal-backdrop{
+  z-index: 3000;
+}
+
+.modal{
+  z-index: 3005;
+}
+
+.modal-dialog{
+  margin:8rem auto;
+}
