@@ -47,25 +47,6 @@ const latestBlogs = [
   },
 ]
 
-const Tags = [
-  {
-    id: 1,
-    name: 'Blog',
-  },
-  {
-    id: 2,
-    name: 'Fashion',
-  },
-  {
-    id: 3,
-    name: 'Collection',
-  },
-  {
-    id: 4,
-    name: 'Accessories',
-  },
-]
-
 const News = () => {
   return (
     <Container>

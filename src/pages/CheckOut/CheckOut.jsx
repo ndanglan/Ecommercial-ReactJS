@@ -5,8 +5,6 @@ import Container from '../../Layout/Container';
 import AddressInfo from './AddressInfo/AddressInfo';
 import OrderContent from './OrderContent/OrderContent';
 
-import classes from './CheckOut.module.css'
-
 const ConfirmOrder = () => {
 
   const { state } = useLocation();
