@@ -79,9 +79,9 @@ const IsLoggedIn = () => {
           </li>
           <li>
             <i className="fas fa-user-cog"></i>
-            <Link to="/admin" >
+            <a href="https://admin-silk-shop.netlify.app" target="_blank " rel="noopener noreferrer">
               Admin
-            </Link>
+            </a>
           </li>
           <li>
             <i className="fas fa-sign-in-alt"></i>
