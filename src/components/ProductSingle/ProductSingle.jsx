@@ -41,7 +41,7 @@ const ProductSingle = ({ productInfo }) => {
 
   let settings = {
     dots: false,
-    infinite: true,
+    infinite: recommendProducts.length >= 4 ? true : false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
