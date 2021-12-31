@@ -3,7 +3,7 @@ import { store } from '../stores';
 import { hideLoading, showLoading } from '../stores/features/loadingSlice';
 
 const url = {
-  baseUrl: "http://localhost:3000",
+  baseUrl: "https://silkshop.herokuapp.com",
   products: "/products",
   carts: '/carts',
   users: '/users',
