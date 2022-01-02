@@ -40,10 +40,6 @@ const AccountBody = () => {
       phone: Yup.string().required('Type your phone number'),
       password: Yup.string(),
       confirmpassword: Yup.string().test('Passwords is valid', 'Passwords must match', function (value) {
-        console.log("value", value);
-        console.log("password", this.parent.password);
-        console.log('errPass', formik.errors.confirmpassword);
-        console.log(formik.touched.confirmpassword);
         return this.parent.password === value
       })
     }),
@@ -131,6 +127,8 @@ const AccountBody = () => {
                 dispatch(updateUser({
                   userInfo: data
                 }))
+                formik.setFieldValue('password', '');
+                formik.setFieldValue('confirmpassword', '')
               }
             })
           }
